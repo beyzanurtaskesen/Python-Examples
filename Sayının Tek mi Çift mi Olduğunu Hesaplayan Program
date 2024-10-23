@@ -1,0 +1,15 @@
+# Sayıyı kullanıcıdan al
+
+sayi=int(input("Bir sayı giriniz"))
+
+# Sayıyının tek mi çift mi olduğunun kontrolü
+
+if sayi %2 == 0:
+    print("Sayımız çift sayıdır")
+
+else:
+    print("Sayımız tek sayıdır")
+
+# Bu kodları tek satıra indirgemek istersek bu yapıyı kullanabiliriz.
+
+print('Girdiğiniz sayı ', 'çift' if int(input('Bir sayı giriniz: ')) % 2 == 0 else 'tek', ' bir sayıdır.')
