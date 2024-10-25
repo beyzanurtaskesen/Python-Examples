@@ -11,3 +11,14 @@ else:
      mutlak_deger = sayi
 
 print(sayi,"sının mutlak degeri" ,mutlak_deger,"olacaktır.")
+
+"""
+# Python'da bir sayının mutlak değerini abs() fonksiyonu alternatif olarak  kolayca alabiliriz.
+
+sayi=int(input("Bir sayı giriniz: "))
+
+mutlak_deger=abs(sayi)
+
+print(sayi,"sının mutlak degeri" ,mutlak_deger,"olacaktır.")
+
+"""
