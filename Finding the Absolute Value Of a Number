@@ -1,0 +1,13 @@
+# Kullanıcıdan bir sayı alınız
+
+sayi=int(input("Bir sayı giriniz: "))
+
+if sayi < 0 :
+
+     mutlak_deger = -sayi
+
+else:
+
+     mutlak_deger = sayi
+
+print(sayi,"sının mutlak degeri" ,mutlak_deger,"olacaktır.")
