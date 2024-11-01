@@ -1,0 +1,13 @@
+# Kullanıcıdan iki tane değer alma ve iki sayı arasında büyük küçük kıyaslaması yapma 
+
+sayi_1 = int(input("Bir sayı giriniz : "))
+
+sayi_2 = int(input("Bir sayı daha giriniz : "))
+
+if (sayi_1 < sayi_2):
+
+     print(sayi_1,"degeri",sayi_2 ,"değerinden küçüktür.")
+
+else:
+
+    print(sayi_1," değeri ",sayi_2 ," değerinden büyüktür.")
